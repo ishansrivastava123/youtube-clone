@@ -10,6 +10,7 @@ export const addComment = async (req, res, next) => {
         res.status(200).send(savedComment)
     } catch (error) {
         console.log("Error");
+        next(error);
     }
 }
 
