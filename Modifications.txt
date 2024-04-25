@@ -1,0 +1,13 @@
+Created two sections - one shows the users who have subscribed to my channel (whoSubscribed) and the second shows users whom I have subscribed to (subscribedUsers)
+You cannot subscribe or unsubscribe to yourself
+You cannot subscribe or unsubscribe to a non-existant user
+You can subscribe or unsubscribe to a user only once
+If video with a tag is not found, appropriate error is handled
+If a video with the searched term is not found, appropriate error is handled
+Created Logout button
+Clicking like/dislike button twice can undo the action
+Recommendation section - if the number of existing videos matching the tag of the video being played is less than 5, random videos starts populating in recommendations
+Handled comments appropriately
+
+
+--Lama Dev-- Didn't update the video.js controller file in the server. Calling addVideo function for all the three operations - post, put, delete!
